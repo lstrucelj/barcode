@@ -299,25 +299,6 @@ export default ({ servicesEdges }) => (
                 Suradnjom s nama štedite vrijeme i novac te najvažnije od svega
                 - dobivate kvalitetnu uslugu.
               </p>
-              <div
-                className="d-flex align-items-center justify-content-start appear-animation"
-                data-appear-animation="fadeIn"
-                data-appear-animation-delay="600"
-              >
-                <div className="circular-bar custom-circular-bar m-0">
-                  <div
-                    className="circular-bar-chart"
-                    data-percent="89"
-                    data-plugin-options="{'barColor': '#b12025'}"
-                  >
-                    <strong className="text-5 text-color-tertiary">99%</strong>
-                  </div>
-                </div>
-                <h4 className="font-weight-bold text-color-tertiary m-0 ms-3">
-                  Uspješnih projekata <br />
-                  od 2018.
-                </h4>
-              </div>
             </div>
             <div className="col-lg-6 col-coaching-consulting-imgs p-relative">
               <div
@@ -326,7 +307,7 @@ export default ({ servicesEdges }) => (
                 data-appear-animation-delay="300"
               >
                 <img
-                  src="/images/img16.webp"
+                  src="/images/img16-1.webp"
                   className="img-fluid border-radius-0"
                   alt=""
                 />
@@ -337,7 +318,7 @@ export default ({ servicesEdges }) => (
                 data-appear-animation-delay="300"
               >
                 <img
-                  src="/images/ener-certifikat.webp"
+                  src="/images/ener-certifikat1.webp"
                   className="img-fluid border-radius-0"
                   alt=""
                 />
@@ -348,7 +329,7 @@ export default ({ servicesEdges }) => (
                 data-appear-animation-delay="300"
               >
                 <img
-                  src="/images/zrakopropusnost.webp"
+                  src="/images/zrakopropusnost1.webp"
                   className="img-fluid border-radius-0"
                   alt=""
                 />

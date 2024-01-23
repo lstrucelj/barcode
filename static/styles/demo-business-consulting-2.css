@@ -244,7 +244,7 @@ html[dir="rtl"] .slider-container .line-pre-title {
 @media (min-width: 992px) {
 		.header-container .header-nav .nav li > a {
 				text-transform: none !important;
-				font-size: 14px !important;
+				font-size: 18px !important;
 		}
 		.header-container .header-nav .nav li .dropdown-menu a {
 				font-size: 0.8em !important;
