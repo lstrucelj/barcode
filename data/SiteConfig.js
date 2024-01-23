@@ -12,7 +12,7 @@ module.exports = {
   siteDescription: "Od projektiranja do stručnog nadzora i certificiranja", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "12345", // FB Application ID for using app insights.
-  googleAnalyticsID: "12345", // GA tracking ID.
+  googleAnalyticsID: "G-H8F23GW85Q", // GA tracking ID.
   userName: "Igor Rajko",
   userTwitter: "barcode", // For social metadata.
   copyright: "© Barcode", // Copyright string for the footer of the website.

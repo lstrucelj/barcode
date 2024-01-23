@@ -1,4 +1,5 @@
 <?php
+$env = parse_ini_file('../.env');
 
 $content = trim(file_get_contents("php://input"));
 $request_data = json_decode($content, true);
@@ -18,7 +19,7 @@ if (
 }
 
 
-$secret = env('RECAPTCHA_SECRET_KEY', false);
+$secret = $env['RECAPTCHA_SECRET_KEY'];
 
 $response = json_decode(file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $request_data['token']), true);
 if ($response['success'] == false || $response['score'] < 0.5) {
@@ -30,7 +31,7 @@ if ($response['success'] == false || $response['score'] < 0.5) {
    $subject = strip_tags(htmlspecialchars($request_data['subject']));
    $message = strip_tags(htmlspecialchars($request_data['message']));
 
-   $to = env('MAIL_ADMIN', false);
+   $to = $env['MAIL_ADMIN'];
 
    $email_subject = "Test Barcode Website Contact Form:  $name";
    $email_body = "You have received a new message from your website contact form.\n\n" . "Here are the details:\n\nName: \n$name\n\nEmail: \n$email_address\n\nSubject:\n$subject\n\nMessage:\n$message";
