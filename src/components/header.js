@@ -6,7 +6,7 @@ export default ({ isHomePage }) => {
     <header
       id="header"
       className="header-effect-shrink"
-      data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 70}"
+      data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 90}"
     >
       <div className="header-body border-top-0">
         <div className="header-container container bg-color-light">
@@ -18,7 +18,7 @@ export default ({ isHomePage }) => {
                     <img
                       alt="Porto"
                       width="auto"
-                      height="60"
+                      height="80"
                       src="/images/logo.webp"
                     />
                   </a>

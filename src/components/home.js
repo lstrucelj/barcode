@@ -308,7 +308,7 @@ export default ({ servicesEdges }) => (
                   <div
                     className="circular-bar-chart"
                     data-percent="89"
-                    data-plugin-options="{'barColor': '#009099'}"
+                    data-plugin-options="{'barColor': '#b12025'}"
                   >
                     <strong className="text-5 text-color-tertiary">99%</strong>
                   </div>

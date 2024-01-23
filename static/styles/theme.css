@@ -310,7 +310,7 @@ li {
   image-rendering: -webkit-optimize-contrast;
   transform: translateZ(0);
   width: auto;
-  height: 60px;
+  height: 80px;
 }
 
 #header .header-nav {
@@ -6887,7 +6887,7 @@ html.sticky-header-enabled.sticky-header-active
   #header .header-logo img {
     z-index: 1;
     width: auto;
-    height: 60px;
+    height: 80px;
   }
 
   #header .header-nav {
