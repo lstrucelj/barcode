@@ -337,7 +337,7 @@ export default ({ servicesEdges }) => (
                 data-appear-animation-delay="300"
               >
                 <img
-                  src="/images/img2.webp"
+                  src="/images/ener-certifikat.webp"
                   className="img-fluid border-radius-0"
                   alt=""
                 />
@@ -348,7 +348,7 @@ export default ({ servicesEdges }) => (
                 data-appear-animation-delay="300"
               >
                 <img
-                  src="/images/img15.webp"
+                  src="/images/zrakopropusnost.webp"
                   className="img-fluid border-radius-0"
                   alt=""
                 />
