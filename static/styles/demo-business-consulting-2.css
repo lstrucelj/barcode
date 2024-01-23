@@ -290,6 +290,10 @@ html[dir="rtl"] .slider-container .line-pre-title {
 				order: 3;
 				flex-grow: 0 !important;
 		}
+
+		#header-column-menu-mobile {
+			flex-grow: 2 !important;
+	}
 }
 
 .header-nav-features {

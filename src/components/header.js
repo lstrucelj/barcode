@@ -1,5 +1,6 @@
 import React from "react";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
+const config = require("../../data/SiteConfig");
 
 export default ({ isHomePage }) => {
   return (
@@ -25,6 +26,76 @@ export default ({ isHomePage }) => {
                 </div>
               </div>
             </div>
+            <div
+              id="header-column-menu-mobile"
+              className="header-column header-column-nav-menu justify-content-end"
+              style={{
+                flexGrow: 10,
+              }}
+            >
+              <ul class="nav nav-pills justify-content-between w-100 h-100">
+                <li class="nav-item py-2 d-flex flex-column align-self-center">
+                  <span class="header-top-phone pb-2 d-flex align-items-center text-color-secondary font-weight-semibold text-uppercase">
+                    <span
+                      style={{
+                        backgroundColor: "#eef0f4",
+                        width: "30px",
+                        height: "30px",
+                        display: "flex",
+                        borderRadius: "50%",
+                        alignContent: "center",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        marginRight: "4px",
+                      }}
+                    >
+                      <img
+                        width="15"
+                        height="18"
+                        src="/images/phone.svg"
+                        alt="Phone"
+                      />
+                    </span>
+                    <a
+                      class="text-color-secondary text-color-hover-primary text-decoration-none"
+                      href={`tel:${config.userMobileNumber}`}
+                    >
+                      {config.userMobileNumber}
+                    </a>
+                  </span>
+                  <span class="header-top-email px-0 font-weight-normal align-items-center d-flex">
+                    <span
+                      style={{
+                        backgroundColor: "#eef0f4",
+                        width: "30px",
+                        height: "30px",
+                        display: "flex",
+                        borderRadius: "50%",
+                        alignContent: "center",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        marginRight: "6px",
+                      }}
+                    >
+                      <img
+                        width="25"
+                        height="18"
+                        src="/images/mail.svg"
+                        alt="Mail"
+                      />
+                    </span>
+                    <a
+                      class="text-color-secondary text-color-hover-primary text-decoration-none"
+                      href={`mailto:${config.userMail}`}
+                      style={{ textTransform: "lowercase" }}
+                    >
+                      {config.userMail}
+                    </a>
+                  </span>
+                </li>
+              </ul>
+            </div>
+
             <div className="header-column header-column-nav-menu justify-content-end">
               <div className="header-row">
                 <div className="header-nav header-nav-links order-2 order-lg-1">
