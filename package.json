@@ -1,0 +1,54 @@
+{
+    "name": "barcode",
+    "version": "1.0.0",
+    "private": true,
+    "description": "barcode",
+    "author": "Leona Strucelj",
+    "keywords": [
+        "gatsby"
+    ],
+    "scripts": {
+        "develop": "gatsby develop",
+        "start": "gatsby develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean"
+    },
+    "remarkConfig": {
+        "plugins": [
+            "remark-preset-lint-recommended"
+        ]
+    },
+    "dependencies": {
+        "gatsby": "^5.13.1",
+        "gatsby-plugin-anchor-links": "^1.2.1",
+        "gatsby-plugin-feed": "^5.13.0",
+        "gatsby-plugin-google-analytics": "^5.13.0",
+        "gatsby-plugin-google-gtag": "^5.13.0",
+        "gatsby-plugin-image": "^3.13.0",
+        "gatsby-plugin-lodash": "^6.13.0",
+        "gatsby-plugin-manifest": "^5.13.0",
+        "gatsby-plugin-offline": "^6.13.0",
+        "gatsby-plugin-react-helmet": "^6.13.0",
+        "gatsby-plugin-sass": "^6.13.0",
+        "gatsby-plugin-sharp": "^5.13.0",
+        "gatsby-plugin-sitemap": "^6.13.0",
+        "gatsby-remark-autolink-headers": "^6.13.0",
+        "gatsby-remark-copy-linked-files": "^6.13.0",
+        "gatsby-remark-external-links": "^0.0.4",
+        "gatsby-remark-images": "^7.13.0",
+        "gatsby-remark-prismjs": "^7.13.0",
+        "gatsby-remark-responsive-iframe": "^6.13.0",
+        "gatsby-remark-smartypants": "^6.13.0",
+        "gatsby-source-filesystem": "^5.13.0",
+        "gatsby-transformer-remark": "^6.13.0",
+        "gatsby-transformer-sharp": "^5.13.0",
+        "lodash": "^4.17.21",
+        "path-browserify": "^1.0.1",
+        "prismjs": "^1.29.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-helmet": "^6.1.0",
+        "sass": "^1.70.0"
+    }
+}

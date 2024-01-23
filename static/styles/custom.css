@@ -1,0 +1,10 @@
+
+@media (max-width: 1200px) {
+    #mobile-reasons {
+        flex-direction: column-reverse;
+}
+}
+
+.grecaptcha-badge { 
+    visibility: hidden !important;
+}
