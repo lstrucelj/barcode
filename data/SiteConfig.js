@@ -19,5 +19,5 @@ module.exports = {
   themeColor: "#ffffff", // Used for setting manifest and progress theme colors.
   backgroundColor: "#ffffff", // Used for setting manifest background color.
   userMail: "igor.rajko@gmail.com",
-  userMobileNumber: "+385 (98) 329 525",
+  userMobileNumber: "+385 (91) 546 5941",
 };
