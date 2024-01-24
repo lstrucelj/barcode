@@ -1,11 +1,8 @@
 ---
 orderId: 1
 title: "Izvedba građevinskih radova"
-description: "Adaptacija kuće, stana, pomoćnih
-  objekata, garaža, potkrovlja,
-  poslovnog, ugostiteljskog ili
-  bilo kojeg prostora s bilo kojom
-  namjenom. Vrhunski izvedena
+description:
+  "Gradnja i adaptacija kuća i stanova - sistem u ključ u ruke. Vrhunski izvedena
   upravo po vašoj želji ili
   zamisli: atraktivno i
   kvalitetno."

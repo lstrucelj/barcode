@@ -859,7 +859,7 @@ html[dir="rtl"] .slider-container .line-pre-title {
 
 #footer .footer-copyright {
 		border-top: 1px solid #ced6e1;
-		padding: 60px 0;
+		padding: 60px 0 30px 0;
 }
 
 @media (max-width: 991px) {

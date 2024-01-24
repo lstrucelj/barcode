@@ -33,9 +33,9 @@ if ($response['success'] == false || $response['score'] < 0.5) {
 
    $to = $env['MAIL_ADMIN'];
 
-   $email_subject = "Test Barcode Website Contact Form:  $name";
-   $email_body = "You have received a new message from your website contact form.\n\n" . "Here are the details:\n\nName: \n$name\n\nEmail: \n$email_address\n\nSubject:\n$subject\n\nMessage:\n$message";
-   $headers = "From: noreply@leonastrucelj.com\n";
+   $email_subject = "Nova poruka s web stranice od:  $name";
+   $email_body = "Primili ste novu poruku s barcode.hr.\n\n" . "Ovo su detalji poruke:\n\nIme i prezime: \n$name\n\nEmail: \n$email_address\n\nNaslov:\n$subject\n\nPoruka:\n$message";
+   $headers = "From: noreply@barcode.hr\n";
    $headers .= "Reply-To: $email_address";
    mail($to, $email_subject, $email_body, $headers);
 
