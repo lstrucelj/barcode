@@ -1,6 +1,7 @@
 ---
 orderId: 5
 title: "Izrada energetskih certifikata"
+desc: "Izrada energetskih certifikata u Poreču i ostatku Istre - Povoljne cijene usluga energetskog certificiranja, pregleda dostupne dokumentacije, vizualni pregleda zgrade, izrada izvješća prema metodologiji."
 description: "Provođenje energetskih pregleda
   i energetsko certificiranje
   zgrada koji se sastoji od

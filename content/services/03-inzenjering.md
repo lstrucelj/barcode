@@ -1,6 +1,7 @@
 ---
 orderId: 3
 title: "Inžinjering"
+desc: "Inžinjering u Poreču i ostatku Istre - povoljne cijene upravljanja zgradama. Elektrotehnička rješenja, projektiranje, nadzor, gradnja, projektiranje elektroinstalacija i certificiranje, zaštita na radu"
 description: "Svojim klijentima nudimo
   inženjerske usluge pisanje
   stručnih mišljenja, kontrolu

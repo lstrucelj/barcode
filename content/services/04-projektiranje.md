@@ -1,6 +1,7 @@
 ---
 orderId: 4
 title: "Projektiranje"
+desc: "Projektiranje u Poreču i ostatku Istre - povoljne cijene usluga poslova arhitektonskog projektiranja građevina koja se sastoji od izrade idejnih, glavnih, izvedbenih projekata, projekata izvedenog stanja, te ishođenje potrebnih dozvola."
 description: "Obavljamo kompletnu uslugu
   poslova arhitektonskog
   projektiranja građevina koja se

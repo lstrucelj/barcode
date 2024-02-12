@@ -1,6 +1,7 @@
 ---
 orderId: 2
 title: "Stručni nadzor gradnje"
+desc: "Stručni nadzor gradnje u Poreču i ostatku Istre - povoljne cijene poslova kojima se uređuje područje prostornog uređenja i gradnje, a obavlja ga nadzorni inženjer"
 description: "Obavljamo poslove kompletnog
   stručnog nadzora nad kvalitetom
   izvedbe građevinskih,

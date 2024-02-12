@@ -69,18 +69,32 @@ const Contact = () => {
       })
         .then((response) => response.json())
         .then((data) => {
-          messageSuccess.current.classList.remove("d-none");
-          messageError.current.classList.add("d-none");
+          if (data.response === "success") {
+            messageSuccess.current.classList.remove("d-none");
+            messageError.current.classList.add("d-none");
 
-          setFields(initialFields);
+            setFields(initialFields);
+          } else {
+            messageSuccess.current.classList.add("d-none");
+            messageError.current.classList.remove("d-none");
+          }
+
+          setTimeout(() => {
+            messageSuccess.current.classList.add("d-none");
+            messageError.current.classList.add("d-none");
+          }, 5000);
           setIsLoading(false);
-          console.log("Server response:", data);
         })
         .catch((error) => {
           console.error("Error submitting form:", error);
           messageSuccess.current.classList.add("d-none");
           messageError.current.classList.remove("d-none");
           setIsLoading(false);
+
+          setTimeout(() => {
+            messageSuccess.current.classList.add("d-none");
+            messageError.current.classList.add("d-none");
+          }, 5000);
         });
     } else {
       const newErrors = {};
@@ -133,7 +147,7 @@ const Contact = () => {
               ref={messageSuccess}
               className="contact-form-success alert alert-success d-none mt-4"
             >
-              <strong>Uspješno!</strong> Vaša poruka je poslana..
+              <strong>Uspješno!</strong> Vaša poruka je poslana.
             </div>
 
             <div
@@ -150,12 +164,13 @@ const Contact = () => {
                   placeholder="Ime i Prezime"
                   value={fields.name}
                   onChange={handleFieldChange("name")}
-                  data-msg-required="Molimo upišite svoje ime."
-                  maxLength="100"
                   className="form-control"
                   name="name"
                   required
                 />
+                {errors.name && (
+                  <span className="error-empty">{errors.name}</span>
+                )}
               </div>
               <div className="form-group col-lg-6">
                 <input
@@ -163,13 +178,15 @@ const Contact = () => {
                   placeholder="E-mail"
                   value={fields.email}
                   onChange={handleFieldChange("email")}
-                  data-msg-required="Molimo upišite svoju email adresu."
-                  data-msg-email="Molimo unesite ispravnu email adresu."
-                  maxLength="100"
                   className="form-control"
                   name="email"
                   required
                 />
+                {errors.email && (
+                  <span className="error-empty">
+                    Molimo unesite ispravnu email adresu.
+                  </span>
+                )}
               </div>
             </div>
             <div className="row">
@@ -179,12 +196,13 @@ const Contact = () => {
                   type="text"
                   value={fields.subject}
                   onChange={handleFieldChange("subject")}
-                  data-msg-required="Molimo upišite naslov."
-                  maxLength="100"
                   className="form-control"
                   name="subject"
                   required
                 />
+                {errors.subject && (
+                  <span className="error-empty">{errors.subject}</span>
+                )}
               </div>
             </div>
             <div className="row">
@@ -193,13 +211,14 @@ const Contact = () => {
                   value={fields.message}
                   onChange={handleFieldChange("message")}
                   placeholder="Vaša poruka..."
-                  maxLength="5000"
-                  data-msg-required="Molimo upišite Vašu poruku."
                   rows="10"
                   className="form-control"
                   name="message"
                   required
                 ></textarea>
+                {errors.message && (
+                  <span className="error-empty">{errors.message}</span>
+                )}
               </div>
             </div>
 

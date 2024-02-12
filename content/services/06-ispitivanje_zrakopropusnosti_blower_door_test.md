@@ -1,6 +1,7 @@
 ---
 orderId: 6
 title: "Ispitivanje zrakopropusnosti (Blower Door test)"
+desc: "Ispitivanje zrakopropusnosti (Blower Door test) u Poreču i ostatku Istre - Povoljne cijene usluga ispitivanja zrakopropusnosti građevine, određivanje zrakopropusnosti ovojnice zgrade. Ujedno je zrakonepropusnost i osnovni preduvjet za osiguranje energetske kvalitete građevine i ishodnje uporabne dozvole."
 description: "Blower Door je metoda
   ispitivanja zrakopropusnosti
   objekta gdje se mogu locirati

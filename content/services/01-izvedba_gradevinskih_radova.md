@@ -1,6 +1,7 @@
 ---
 orderId: 1
 title: "Izvedba građevinskih radova"
+desc: "Izvođenje građevinskih radova u Poreču i ostatku Istre - povoljne cijene građevinskih radova"
 description:
   "Gradnja i adaptacija kuća i stanova - sistem u ključ u ruke. Vrhunski izvedena
   upravo po vašoj želji ili

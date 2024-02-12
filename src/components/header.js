@@ -33,9 +33,9 @@ export default ({ isHomePage }) => {
                 flexGrow: 10,
               }}
             >
-              <ul class="nav nav-pills justify-content-between w-100 h-100">
-                <li class="nav-item py-2 d-flex flex-column align-self-center">
-                  <span class="header-top-phone pb-2 d-flex align-items-center text-color-secondary font-weight-semibold text-uppercase">
+              <ul className="nav nav-pills justify-content-between w-100 h-100">
+                <li className="nav-item py-2 d-flex flex-column align-self-center">
+                  <span className="header-top-phone pb-2 d-flex align-items-center text-color-secondary font-weight-semibold text-uppercase">
                     <span
                       style={{
                         backgroundColor: "#eef0f4",
@@ -57,13 +57,13 @@ export default ({ isHomePage }) => {
                       />
                     </span>
                     <a
-                      class="text-color-secondary text-color-hover-primary text-decoration-none"
+                      className="text-color-secondary text-color-hover-primary text-decoration-none"
                       href={`tel:${config.userMobileNumber}`}
                     >
                       {config.userMobileNumber}
                     </a>
                   </span>
-                  <span class="header-top-email px-0 font-weight-normal align-items-center d-flex">
+                  <span className="header-top-email px-0 font-weight-normal align-items-center d-flex">
                     <span
                       style={{
                         backgroundColor: "#eef0f4",
@@ -85,7 +85,7 @@ export default ({ isHomePage }) => {
                       />
                     </span>
                     <a
-                      class="text-color-secondary text-color-hover-primary text-decoration-none"
+                      className="text-color-secondary text-color-hover-primary text-decoration-none"
                       href={`mailto:${config.userMail}`}
                       style={{ textTransform: "lowercase" }}
                     >

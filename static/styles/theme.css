@@ -10561,6 +10561,7 @@ html[dir="rtl"] #header .tip-light:before {
 
 .page-header.page-header-modern h1 {
   font-size: 28px;
+  line-height: 45px;
 }
 
 .page-header.page-header-modern.page-header-sm h1 {
@@ -19482,4 +19483,11 @@ html.gap-outside
   .container-fluid {
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.error-empty {
+  color: #c10000;
+    font-size: 0.9em;
+    line-height: 18px;
+    padding: 5px 0 0;
 }

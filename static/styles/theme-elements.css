@@ -9929,6 +9929,7 @@ label.error {
   font-size: 0.9em;
   line-height: 18px;
   padding: 5px 0 0;
+  display: none !important;
 }
 
 label.error#captcha-error {

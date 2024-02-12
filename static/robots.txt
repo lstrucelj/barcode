@@ -1,1 +1,3 @@
 User-agent: *
+
+Sitemap: https://barcode.hr/sitemap-index.xml
